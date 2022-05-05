@@ -7,6 +7,7 @@ function loadRepos() {
          console.log(xmlHttpRequest.responseText);
       }
    });
+   
    xmlHttpRequest.open('GET', url);
    xmlHttpRequest.send();
 }
